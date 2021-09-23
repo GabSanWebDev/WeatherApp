@@ -1,0 +1,42 @@
+:root{
+    --primary-color: #d9ad7c; 
+    --secondary-color: #8b6f47;
+    --title-color: #ca9853;
+    --earth-blue: #034f84 ;
+}
+
+.container{
+    margin: 3% 30%;
+    width: 40%;
+    height: 60vh;
+    align-content: center;
+    border: 1px solid rgba(255, 255, 255, .15);
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.507); 
+    backdrop-filter: blur(10px);  
+    margin-bottom: 20px;
+    padding: 10px;
+    text-align: justify;
+}
+.title{
+    color: var(--earth-blue);
+    text-align: center;
+
+}
+.text{
+    margin-bottom: 20px;
+}
+
+.icons{
+    text-align: center;
+    font-size: 50px;
+}
+
+.iconsContainer{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
